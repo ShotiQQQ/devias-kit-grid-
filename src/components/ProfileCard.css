@@ -42,15 +42,6 @@
     padding: 22px 40px;
 }
 
-/* .profile__card-button {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #425A70;
-    letter-spacing: 1px;
-}
- */
  .profile__card-bottom .profile__card-button--download {
     color: var(--buttonAndCheckboxes);
 }

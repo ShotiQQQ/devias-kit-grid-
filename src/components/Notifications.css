@@ -69,26 +69,3 @@
     padding: 24px;
 }
 
-/* .notifications__btn {
-    padding: 12px 42px;
-    text-transform: uppercase;
-    background-color: #fff;
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--buttonAndCheckboxes);
-    letter-spacing: 1.25px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    transition: background-color .3s ease, color .3s ease;
-}
-
-.notifications__btn:hover {
-    background-color: #109ef0;
-    color: #fff;
-}
-
-.notifications__btn:active {
-    background-color: #fff;
-    color: var(--buttonAndCheckboxes);
-} */
