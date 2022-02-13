@@ -1,0 +1,94 @@
+.notifications {
+    max-width: 910px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 4px;
+}
+
+.notifications__top {
+    padding: 24px;
+    border-bottom: 1px solid #E4E7EB;
+}
+
+.notifications__title {
+    display: inline;
+    margin-right: 16px;
+    color: #3A3B3F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.notifications__annotation {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--menu);
+}
+
+.notifications__main {
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid #E4E7EB;
+}
+
+.notifications__main-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 195px;
+    margin-right: 85px;
+}
+
+.notifications__main-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 155px;
+}
+
+.notifications__main .notifications__title {
+    margin-bottom: 24px;
+}
+
+.notifications__main label {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.notifications__input {
+    margin-right: 9px;
+}
+
+.notifications__main label:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.notifications__bottom {
+    padding: 24px;
+}
+
+/* .notifications__btn {
+    padding: 12px 42px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--buttonAndCheckboxes);
+    letter-spacing: 1.25px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.notifications__btn:hover {
+    background-color: #109ef0;
+    color: #fff;
+}
+
+.notifications__btn:active {
+    background-color: #fff;
+    color: var(--buttonAndCheckboxes);
+} */

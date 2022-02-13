@@ -1,0 +1,120 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    background-color: #fff;
+    border-right: 1px solid rgba(63, 63, 68, 0.2);
+    transition: display .3s ease;
+    grid-area: aside;
+    height: 100%;
+    padding: 0 16px;
+}
+
+.line {
+    height: 1px;
+    width: 238px;
+    background-color: #E4E7EB;
+    margin-bottom: 24px;
+}
+
+.aside__user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 5px;
+}
+
+.aside__user-img {
+    border-radius: 100px;
+    margin-bottom: 16px;
+}
+
+.aside__user-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.aside__user-position {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9EA0A5;
+}
+
+.navbar {
+    padding: 27px 16px;
+}
+
+.aside__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside__list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.aside__item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 19px 17px;
+    padding-left: 26px;
+}
+
+.aside__item-link--dashboard {
+    background-image: url("../../public/img/aside__dashboard.svg");
+}
+
+.aside__item-link--users {
+    background-image: url("../../public/img/aside__users.svg");
+}
+
+.aside__item-link--products {
+    background-image: url("../../public/img/aside__products.svg");
+}
+
+.aside__item-link--auth {
+    background-image: url("../../public/img/aside__auth.svg");
+}
+
+.aside__item-link--typ {
+    background-image: url("../../public/img/aside__typography.svg");
+}
+
+.aside__item-link--icons {
+    background-image: url("../../public/img/aside__icons.svg");
+}
+
+.aside__support {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.aside__category {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.328974);
+    margin-bottom: 19px;
+}
+
+/* .aside__support-btn {
+    width: 82px;
+    color: var(--menu);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    background-image: url("../../public/img/aside__support.svg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+} */

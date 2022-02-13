@@ -1,0 +1,56 @@
+.profile__card {
+    background-color: #fff;
+    max-width: 375px;
+    min-width: 260px;
+    border-radius: 4px;
+    border: 1px solid rgba(63, 63, 68, 0.005);
+    box-shadow: 0px 1px 3px rgba(63, 63, 68, 0.15);
+}
+
+.profile__card-top {
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid #E4E7EB;
+}
+
+.profile__card-top--left {
+    margin-right: auto;
+}
+
+.profile__card-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+.profile__card-adress, .profile__card-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9EA0A5;
+}
+
+.profile__card-photo {
+    min-width: 110px;
+}
+
+.profile__card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px;
+}
+
+/* .profile__card-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #425A70;
+    letter-spacing: 1px;
+}
+ */
+ .profile__card-bottom .profile__card-button--download {
+    color: var(--buttonAndCheckboxes);
+}

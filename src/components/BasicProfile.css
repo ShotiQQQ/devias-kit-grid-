@@ -1,0 +1,75 @@
+.basic {
+    max-width: 910px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 4px;
+}
+
+.basic__top {
+    padding: 24px;
+    border-bottom: 1px solid #E4E7EB;
+}
+
+.basic__title {
+    display: inline;
+    margin-right: 16px;
+    color: #3A3B3F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.basic__annotation {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--menu);
+}
+
+.basic__main {
+    padding: 24px 24px 0 24px;
+    border-bottom: 1px solid #E4E7EB;
+}
+
+.basic__input {
+    width: 328px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+.basic__input:focus {
+    outline: 2px solid var(--buttonAndCheckboxes);
+}
+
+.basic__input:not(:nth-child(2n)) {
+    margin-right: 24px;
+}
+
+.basic__bottom {
+    padding: 24px;
+}
+
+/* .basic__btn {
+    padding: 12px 16px;
+    text-transform: uppercase;
+    background-color: var(--buttonAndCheckboxes);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    letter-spacing: 1.25px;
+    transition: background-color .3s ease;
+} */
+
+/* .basic__btn:hover {
+    background-color: #109ef0;
+}
+
+.basic__btn:active {
+    background-color: var(--buttonAndCheckboxes);
+} */

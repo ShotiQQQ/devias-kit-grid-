@@ -1,0 +1,17 @@
+.App {
+  display: grid;
+  grid-template: minmax(64px, auto) 1fr / 1fr;
+  grid-template-areas: 
+  "header"
+  "main";
+  height: 100%;
+  max-width: 1960px;
+  margin: 0 auto;
+}
+@import url("components/Header.css");
+@import url("components/Aside.css");
+@import url("components/Tabs.css");
+@import url("components/ProfileCard.css");
+@import url("components/BasicProfile.css");
+@import url("components/Notifications.css");
+@import url("components/Media.css");
